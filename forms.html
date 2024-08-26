@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Формы</title>
+  </head>
+  <body>
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+      <p>
+        <label for="login">Логин:</label>
+        <input
+          id="login"
+          name="login"
+          type="text"
+          placeholder="Логин"
+          maxlength="5"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login">Пароль:</label>
+        <input
+          name="password"
+          type="password"
+          placeholder="Пароль"
+          maxlength="15"
+        />
+      </p>
+      <p>
+        <label for="phone">Телефон:</label>
+        <input name="phone" type="text" value="2225557" disabled />
+      </p>
+      <p>
+        <label for="age">Возраст:</label>
+        <input name="age" type="number" min="15" max="115" step="4" />
+      </p>
+      <p>
+        <label for="rbutton">Радиокнопка:</label>
+        <input name="rbutton" type="radio" />
+      </p>
+      <p>
+        <label for="range">Ползунок:</label>
+        <input name="range" type="range" min="1" max="10" step="2" value="10" />
+      </p>
+      <p>
+        <label for="chbox">Чебокс:</label>
+        <input name="chbox" type="checkbox" />
+      </p>
+      <p>
+        <label for="chbox1">Чебокс1:</label>
+        <input name="chbox1" type="checkbox" checked/>
+      </p>
+      <p>
+        <label for="color">Цвет:</label>
+        <input name="color" type="color" />
+      </p>
+      <p>
+        <label for="file">Файл:</label>
+        <input name="file" type="file" />
+      </p>
+      <input type="submit" value="Войти" />
+      <input type="reset" value="Сбросить" />
+    </form>
+  </body>
+</html>

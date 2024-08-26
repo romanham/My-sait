@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <title>Главная страница</title>
+    <style>
+      td, th {
+        border: solid 1px black;
+      }
+      th {
+        color: red;
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Мой первый сайт</h1>
+    <a href="#table-1">
+      <img src="icon.png" alt="Месенджер" width="100" height="100" />
+    </a>
+    <p>Новый абзац</p>
+    <b>Жирный текст</b>
+    <p>
+      <del>Зачеркнутый текст</del>
+    </p>
+    <p>
+      <i>Текст курсивом</i>
+    </p>
+    <small>Текст чуть меньше размером</small>
+    <u>Подчеркнутый текст</u>
+    <p>
+      X
+      <sub>i</sub>
+      =Y
+      <sup>2</sup>
+      +Z
+      <sup>2</sup>
+    </p>
+
+    <h2>Нумерованный список</h2>
+    <ol style="list-style-type: lower-alpha;">
+      <li>Iphone 11</li>
+      <li>Galaxy S7</li>
+      <li>Nexus 5X</li>
+      <li>Lumia 950</li>
+      <li>Siemens</li>
+    </ol>
+
+    <h2>Ненумерованный список</h2>
+    <!-- Комментарий не читается браузером -->
+    <details>
+      <summary>Телефоны</summary>
+      <ul style="list-style-type: square; color: rgb(60, 33, 85)">
+        <li style="color: brown">Iphone 11</li>
+        <li style="color: aquamarine">Galaxy S7</li>
+        <li style="color: antiquewhite">Nexus 5X</li>
+        <li>Lumia 950</li>
+        <li>Siemens</li>
+      </ul>
+    </details>
+
+    <ul style="list-style-image: url(phone_touch.png)">
+      <li>Iphone 11</li>
+      <li>Galaxy S7</li>
+      <li>Nexus 5X</li>
+      <li>Lumia 950</li>
+      <li>Siemens</li>
+    </ul>
+
+    <img src="icon.png" alt="Месенджер" width="100" height="100" />
+
+    <table id="table-1" class="table-1">
+      <thead>
+        <tr>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Телефон</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Иван</td>
+          <td>Иванов</td>
+          <td>89112223344</td>
+        </tr>
+        <tr>
+          <td>Иван</td>
+          <td>Иванов</td>
+          <td>89112223344</td>
+        </tr>
+        <tr>
+          <td>Иван</td>
+          <td>Иванов</td>
+          <td>89112223344</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
