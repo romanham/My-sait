@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 5%;
+}
+
+.main-title{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.main-png{
+    width: 100px;
+    height: 100px;
+}
+
+.main-text{
+    font-size: 20px;
+    color: chartreuse;
+}
+
+
+.container > p{
+    color: red;
+}
