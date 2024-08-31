@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Домашнее задание</title>
+    <style>
+        td, th {
+          border: solid 1px black;
+        }
+        th {
+          color: rgba(253, 9, 9, 0.527);
+        }
+        table {
+          border-collapse: collapse;
+          width: 50%;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Регистрационная форма</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+      <p>
+        <label for="surname">Фамилия:</label>
+        <input
+          id="surname"
+          name="surname"
+          type="text"
+          placeholder="Фамилия"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="name">Имя:</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Имя"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="patronymic">Отчество:</label>
+        <input
+          id="patronymic"
+          name="patronymic"
+          type="text"
+          placeholder="Отчество"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login">Дата рождения</label>
+        <input
+          id="login"
+          name="login"
+          type="text"
+          placeholder="Дата рождения"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login1">Место рождения</label>
+        <input
+          id="login1"
+          name="login1"
+          type="text"
+          placeholder="Место рождения"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="chbox">Пол: М</label>
+        <input name="chbox" type="checkbox" />
+        <label for="chbox">Ж</label>
+        <input name="chbox" type="checkbox" />
+      </p>
+      <p>
+        <label for="login5">Образование</label>
+        <input
+          id="login5"
+          name="login5"
+          type="text"
+          placeholder="Образование"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login7">Специальность, профессия</label>
+        <input
+          id="login7"
+          name="login7"
+          type="text"
+          placeholder="Специальность, профессия"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login6">Семейное положение</label>
+        <input
+          id="login6"
+          name="login6"
+          type="text"
+          placeholder="Семейное положение"
+          autofocus
+        />
+      </p>
+    
+      <table id="table-1" class="table-1">
+        <caption>Дети</caption>
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Дата рождения</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+            <td><input type="text" name="userName" /></td>
+          </tr>
+        </tbody>
+    </table>
+      <p>
+        <label for="login2">Место регистрации</label>
+        <input
+          id="login2"
+          name="login2"
+          type="text"
+          placeholder="Место регистрации"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login3">Место работы</label>
+        <input
+          id="login3"
+          name="login3"
+          type="text"
+          placeholder="Место работы"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="login4">Должность</label>
+        <input
+          id="login4"
+          name="login4"
+          type="text"
+          placeholder="Должность"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="age">Стаж работы:</label>
+        <input name="age" type="number" min="0" max="99" />
+      </p>
+      <p>
+        <label for="phone">Телефон:</label>
+        <input name="phone" type="text" />
+      </p>
+      <p>
+        <label for="file">Фото:</label>
+        <input name="file" type="file" />
+      </p>
+      <input type="submit" value="Отправить" />
+      <input type="reset" value="Отмена" />
+    </form>
+  </body>
+</html>
