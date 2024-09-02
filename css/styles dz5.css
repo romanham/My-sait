@@ -1,0 +1,70 @@
+.input-body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+.input-header{
+    background-color: hsl(254, 91%, 22%);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Bookman Old Style;
+    font-size: 30px;
+}
+
+.input-main{
+    display: flex;
+    padding: 30px;
+    font-family: Times New Roman;
+}
+
+.input-article{
+    flex: 3;
+    margin-right: 20px;
+}
+
+.input-article h2,p{
+    text-align: center;
+    width: 250px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+.input-article img {
+    padding-left: 55px;
+}
+
+.input-aside {
+
+}
+
+.input-aside h2 {
+    text-align: center;
+    width: 340px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+}
+
+.input-aside img {
+    padding-left: 260px;
+}
+
+.input-aside p {
+    text-align: center;
+    width: 340px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+}
+
+.input-footer {
+    background-color: hsl(254, 91%, 22%);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    position: relative;
+    bottom: 5px;
+    width: 100%;
+    font-size: small;
+}
