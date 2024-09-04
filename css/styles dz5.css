@@ -15,7 +15,7 @@
 
 .input-main{
     display: flex;
-    padding: 30px;
+    padding: 0px;
     font-family: Times New Roman;
 }
 
@@ -24,37 +24,20 @@
     margin: 20px;
 }
 
-.input-article h2,p{
+.input-section h2,h3,p{
     text-align: center;
     padding-bottom: 0px;
     margin: auto;
-    width: 320px;
-    }
+}
 
-.input-article img {
+.input-div {
     padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .input-aside {
     flex: 3;
     margin: 20px;
-}
-
-.input-aside h2, p {
-    text-align: center;
-    padding-bottom: 0px;
-    margin: auto;
-    width: 320px;
-}
-
-.input-aside img {
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .input-footer {
