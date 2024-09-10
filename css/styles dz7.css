@@ -1,0 +1,64 @@
+.input-body{
+    margin: 50px;
+    display: block;
+    background: black;
+}
+
+.table-1{
+    border-collapse: collapse;
+    width: 100%;
+    font: message-box;
+    margin-top: inherit;
+}
+
+.input-thead{
+    background: red;
+}
+
+.input-thead tr, th{
+    color: aliceblue;
+    text-align: left;
+    padding: 5px;
+}
+
+.table-2{
+    border-collapse: collapse;
+    width: 100%;
+    font: message-box;
+    margin-top: inherit;
+}
+
+.input-thead1 {
+    background: green;
+}
+
+.table-3{
+    border-collapse: collapse;
+    width: 100%;
+    font: message-box;
+    margin-top: inherit;
+}
+
+.input-thead2 {
+    background: blue;
+}
+
+.input-tbody1 td{
+    background: aliceblue;
+    padding: 5px;
+}
+
+.input-tbody2 td{
+    background: bisque;
+    padding: 5px;
+}
+
+.input-tbody3 td{
+    background: aliceblue;
+    padding: 5px;
+}
+
+.input-tbody4 td{
+    background: bisque;
+    padding: 5px;
+}
